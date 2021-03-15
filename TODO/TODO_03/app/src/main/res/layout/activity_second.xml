@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:stretchColumns="1">
+
+        <TableRow>
+
+            <TextView
+                android:background="@drawable/border"
+                android:layout_width="198dp"
+                android:layout_height="match_parent"
+                android:padding="10dp"
+                android:text="@string/r1c1"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:background="@drawable/border"
+                android:gravity="left"
+                android:padding="10dp"
+                android:text="@string/r1c2"
+                android:textColor="@color/black" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:background="@drawable/border"
+                android:padding="10dp"
+                android:text="@string/r2c1"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:background="@drawable/border"
+                android:gravity="left"
+                android:padding="10dp"
+                android:text="@string/r2c2"
+                android:textColor="@color/black" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:background="@drawable/border"
+                android:padding="10dp"
+                android:text="@string/r3c1" />
+
+            <TextView
+                android:background="@drawable/border"
+                android:layout_height="match_parent"
+                android:gravity="left"
+                android:padding="10dp"
+                android:text="@string/r3c2"
+                android:textColor="@color/black" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:background="@drawable/border"
+                android:padding="10dp"
+                android:text="@string/r4c1" />
+
+            <TextView
+                android:background="@drawable/border"
+                android:gravity="left"
+                android:padding="10dp"
+                android:text="@string/r4c2"
+                android:textColor="@color/black" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:background="@drawable/border"
+                android:padding="10dp"
+                android:text="@string/r5c1"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:background="@drawable/border"
+                android:gravity="left"
+                android:padding="10dp"
+                android:text="@string/r5c2"
+                android:textColor="@color/black" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:background="@drawable/border"
+                android:padding="10dp"
+                android:text="@string/r6c1"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:background="@drawable/border"
+                android:gravity="left"
+                android:padding="10dp"
+                android:text="@string/r6c2"
+                android:textColor="@color/black" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:background="@drawable/border"
+                android:padding="10dp"
+                android:text="@string/r7c1"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:background="@drawable/border"
+                android:gravity="left"
+                android:padding="10dp"
+                android:text="@string/r7c2"
+                android:textColor="@color/black" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:background="@drawable/border"
+                android:padding="10dp"
+                android:text="@string/r8c1"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:background="@drawable/border"
+                android:gravity="left"
+                android:padding="10dp"
+                android:text="@string/r8c2"
+                android:textColor="@color/black" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:background="@drawable/border"
+                android:padding="10dp"
+                android:text="@string/r9c1"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:background="@drawable/border"
+                android:gravity="left"
+                android:padding="10dp"
+                android:text="@string/r9c2"
+                android:textColor="@color/black" />
+        </TableRow>
+    </TableLayout>
+
+</androidx.appcompat.widget.LinearLayoutCompat>

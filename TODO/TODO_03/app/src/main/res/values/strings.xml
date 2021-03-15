@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">TODO_3</string>
+    <string name="second">Second Main Activity</string>
+    <string name="b1">SEND</string>
+    <string name="r1c1"><b>Attribute</b></string>
+    <string name="r1c2"><b>Value</b></string>
+    <string name="r2c1"><b>id</b></string>
+    <string name="r2c2"><b>text_header</b></string>
+    <string name="r3c1">Top margin</string>
+    <string name="r3c2"><b>16</b></string>
+    <string name="r4c1">Left margin</string>
+    <string name="r4c2"><b>8</b></string>
+    <string name="r5c1"><b>layout_width</b></string>
+    <string name="r5c2"><b>wrap_content</b></string>
+    <string name="r6c1"><b>layout_height</b></string>
+    <string name="r6c2"><b>wrap_content</b></string>
+    <string name="r7c1"><b>text</b></string>
+    <string name="r7c2"><b>Message Received</b></string>
+    <string name="r8c1"><b>textAppearance</b></string>
+    <string name="r8c2"><b>AppCompat.Medium</b></string>
+    <string name="r9c1"><b>textStyle</b></string>
+    <string name="r9c2"><b>B</b> (bold)</string>
+
+</resources>
