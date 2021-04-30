@@ -74,4 +74,10 @@ public class ExampleUnitTest {
         double div = mCalculater.div(4d,2d);
         assertThat(div,is(equalTo(2d)));
     }
+    
+    @Test
+    public void divTwoNumberZero(){
+        double div = mCalculater.div(4d,0d);
+        assertThat(div,is(equalTo(Double.POSITIVE_INFINITY)));
+    }
 }
