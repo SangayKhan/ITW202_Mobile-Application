@@ -39,7 +39,7 @@ public class MainActivity extends AppCompatActivity{
 
     public void location(View view) {
         String location = txt2.getText().toString();
-        Uri uri = Uri.parse("geo:0?0q = "+location);
+        Uri uri = Uri.parse("geo:0,?0q = "+location);
         Intent intent = new Intent(Intent.ACTION_VIEW, uri);
 
         if(intent.resolveActivity(getPackageManager())!=null){
